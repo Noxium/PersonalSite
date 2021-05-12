@@ -181,7 +181,7 @@ function doneLoading() {
   startButton.drawRect(0, 0, 225, 50);
   startButton.endFill;
   startButton.position.x = WIDTH / 2 - startButton.width / 2;
-  startButton.position.y = HEIGHT - 200;
+  startButton.position.y = HEIGHT - 100;
 
   let startText = new PIXI.Text("new game", {fontFamily: 'Formal Future', fontSize: 28, fill: "black"});
   startText.anchor.set(0.5, 0.0);
