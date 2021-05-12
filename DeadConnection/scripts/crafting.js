@@ -447,12 +447,8 @@ class Crafting {
         player.crafting.currentPickupOriginX = slot.x + this.slotSize/2;
         player.crafting.currentPickupOriginY = slot.y + this.slotSize/2;
         player.crafting.pickup.slot = slot.slotID;
-
         if(slot.label == "oven") {
-          console.log("oven");
-          console.log(this.ovenItem);
           this.ovenItem = player.crafting.pickup;
-          console.log(this.ovenItem);
         }
         this.cancelPickup();
       }

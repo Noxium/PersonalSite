@@ -72,9 +72,7 @@ class Block extends GameObject {
       { x: this.body.position.x - BLOCK_SIZE, y: this.body.position.y }, // west
     ]
 
-    console.log(Matter.Query.ray(Matter.Composite.allBodies(engine.world), this.body.position, {x: this.body.position.x, y:this.body.position.y + BLOCK_SIZE}));
     for(let coords of castCoordinates) {
-      //console.log(coords)
       let cast = Matter.Query.ray(Matter.Composite.allBodies(engine.world), this.body.position, coords);
 
         //console.log(Matter.Query.ray(Matter.Composite.allBodies(engine.world), this.body.position, coords));
