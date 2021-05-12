@@ -311,7 +311,7 @@ let lastFPS = 0;
 function queueSF(audio) {
   soundEffectQueue.push(audio);
   if(soundEffectQueue.length == 1) {
-    soundEffectQueue[0].play()
+    //soundEffectQueue[0].play()
   }
 }
 
@@ -335,7 +335,7 @@ function gameLoop(delta) {
     if(soundEffectQueue[0].paused) {
       soundEffectQueue.shift();
       if(soundEffectQueue.length != 0) {
-        soundEffectQueue[0].play();
+        //soundEffectQueue[0].play();
       }
     }
   }
