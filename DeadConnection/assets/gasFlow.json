@@ -1,0 +1,53 @@
+{ "frames": {
+   "gasFlow_0.png": {
+    "frame": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   },
+   "gasFlow_1.png": {
+    "frame": { "x": 32, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   },
+   "gasFlow_2.png": {
+    "frame": { "x": 64, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   },
+   "gasFlow_3.png": {
+    "frame": { "x": 96, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   }
+ },
+ "animations": {
+   "track": ["gasFlow_0.png","gasFlow_1.png","gasFlow_2.png","gasFlow_3.png"]
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "gasFlow.png",
+  "format": "RGBA8888",
+  "size": { "w": 128, "h": 16 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "gassoft", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

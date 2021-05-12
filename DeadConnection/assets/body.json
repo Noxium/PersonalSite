@@ -1,0 +1,127 @@
+{ "frames": {
+   "body_0.png": {
+    "frame": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 75
+   },
+   "body_1.png": {
+    "frame": { "x": 64, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 75
+   },
+   "body_2.png": {
+    "frame": { "x": 128, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 40
+   },
+   "body_3.png": {
+    "frame": { "x": 192, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 40
+   },
+   "body_4.png": {
+    "frame": { "x": 256, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 40
+   },
+   "body_5.png": {
+    "frame": { "x": 320, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 40
+   },
+   "body_6.png": {
+    "frame": { "x": 384, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 40
+   },
+   "body_7.png": {
+    "frame": { "x": 448, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 75
+   },
+   "body_8.png": {
+    "frame": { "x": 512, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 75
+   },
+   "body_9.png": {
+    "frame": { "x": 576, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 75
+   },
+   "body_10.png": {
+    "frame": { "x": 640, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 75
+   },
+   "body_11.png": {
+    "frame": { "x": 704, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 75
+   },
+   "body_12.png": {
+    "frame": { "x": 768, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 75
+   }
+ },
+ "animations": {
+   "track": ["body_0.png","body_1.png","body_2.png","body_3.png","body_4.png","body_5.png","body_6.png","body_7.png","body_8.png","body_9.png","body_10.png","body_11.png","body_12.png"]
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "body.png",
+  "format": "RGBA8888",
+  "size": { "w": 832, "h": 64 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Jump", "from": 1, "to": 13, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Bodaycious", "opacity": 255, "blendMode": "normal" },
+   { "name": "flamez", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

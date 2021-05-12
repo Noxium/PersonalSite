@@ -1,0 +1,70 @@
+{ "frames": {
+   "drill_0.png": {
+    "frame": { "x": 0, "y": 0, "w": 32, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+    "sourceSize": { "w": 32, "h": 32 },
+    "duration": 75
+   },
+   "drill_1.png": {
+    "frame": { "x": 32, "y": 0, "w": 32, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+    "sourceSize": { "w": 32, "h": 32 },
+    "duration": 75
+   },
+   "drill_2.png": {
+    "frame": { "x": 64, "y": 0, "w": 32, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+    "sourceSize": { "w": 32, "h": 32 },
+    "duration": 75
+   },
+   "drill_3.png": {
+    "frame": { "x": 96, "y": 0, "w": 32, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+    "sourceSize": { "w": 32, "h": 32 },
+    "duration": 75
+   },
+   "drill_4.png": {
+    "frame": { "x": 128, "y": 0, "w": 32, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+    "sourceSize": { "w": 32, "h": 32 },
+    "duration": 75
+   },
+   "drill_5.png": {
+    "frame": { "x": 160, "y": 0, "w": 32, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },
+    "sourceSize": { "w": 32, "h": 32 },
+    "duration": 75
+   }
+ },
+ "animations": {
+   "track": ["drill_0.png","drill_1.png","drill_2.png","drill_3.png","drill_4.png","drill_5.png"]
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "drill.png",
+  "format": "RGBA8888",
+  "size": { "w": 192, "h": 32 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "base", "opacity": 255, "blendMode": "normal" },
+   { "name": "edges", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

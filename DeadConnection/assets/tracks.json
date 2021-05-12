@@ -1,0 +1,39 @@
+{ "frames": {
+   "tracks_01.png": {
+    "frame": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 75
+   },
+   "tracks_02.png": {
+    "frame": { "x": 64, "y": 0, "w": 64, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "sourceSize": { "w": 64, "h": 64 },
+    "duration": 75
+   }
+ },
+ "animations": {
+   "track": ["tracks_01.png","tracks_02.png"]
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "tracks.png",
+  "format": "RGBA8888",
+  "size": { "w": 128, "h": 64 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Jump", "from": 2, "to": 14, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Track base", "opacity": 255, "blendMode": "normal" },
+   { "name": "Tracks", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
